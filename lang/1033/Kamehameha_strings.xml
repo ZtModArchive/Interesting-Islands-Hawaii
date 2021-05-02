@@ -1,0 +1,74 @@
+﻿<ZT2Strings>
+    <entityname>
+      <!--scenery object names-->
+      <Kamehameha>Kamehameha Butterfly</Kamehameha>
+      <Kamehameha_stt>Kamehameha Butterfly</Kamehameha_stt>
+      <Kamehameha_lower>the Kamehameha Butterfly</Kamehameha_lower>
+      <Kamehameha_ltt>
+         <color r="255" g="248" b="178">
+            <b>Kamehameha Butterfly</b>
+         </color>
+         <br/>
+        Click to place a Kamehameha Butterfly, a butterfly endemic to the Hawaiian Islands.
+      </Kamehameha_ltt>
+      <ReefAnimatedZRS2>Animated Coral Reef 2</ReefAnimatedZRS2>
+      <ReefAnimatedZRS2_stt>Animated Coral Reef 2</ReefAnimatedZRS2_stt>
+      <ReefAnimatedZRS2_lower>the Animated Coral Reef 2</ReefAnimatedZRS2_lower>
+      <ReefAnimatedZRS2_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animated Coral Reef</b>
+         </color>
+         <br/>
+        Click to place an Animated Coral Reef, With Seadragon and nudibranchs.
+      </ReefAnimatedZRS2_ltt>
+      <ReefAnimatedZRS3>Animated Coral Reef 3</ReefAnimatedZRS3>
+      <ReefAnimatedZRS3_stt>Animated Coral Reef 3</ReefAnimatedZRS3_stt>
+      <ReefAnimatedZRS3_lower>the Animated Coral Reef 3</ReefAnimatedZRS3_lower>
+      <ReefAnimatedZRS3_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animated Coral Reef</b>
+         </color>
+         <br/>
+        Click to place an Animated Coral Reef, With Nautilus.
+      </ReefAnimatedZRS3_ltt>
+      <ReefLobster>Reef Lobster</ReefLobster>
+      <ReefLobster_stt>Reef Lobster</ReefLobster_stt>
+      <ReefLobster_lower>the Reef Lobster</ReefLobster_lower>
+      <ReefLobster_ltt>
+         <color r="255" g="248" b="178">
+            <b>Reef Lobster</b>
+         </color>
+         <br/>
+        Click to place an Reef Lobster.
+      </ReefLobster_ltt>
+      <CrabHorseshoe>Horseshoe Crab</CrabHorseshoe>
+      <CrabHorseshoe_stt>Horseshoe Crab</CrabHorseshoe_stt>
+      <CrabHorseshoe_lower>the Horseshoe Crab</CrabHorseshoe_lower>
+      <CrabHorseshoe_ltt>
+         <color r="255" g="248" b="178">
+            <b>Horseshoe Crab</b>
+         </color>
+         <br/>
+        Click to place an Horseshoe Crab.
+      </CrabHorseshoe_ltt>
+   </entityname>
+      <LOC_STRING _locID="zoopedia_reefanimatedzrs:entry">Animated Coral Reef Pack</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_reefanimatedzrs:text">
+         <cell pady="0" width="1000"/>
+         <p/>
+         <cell width="260"/>
+         <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+            <cell width="600" padx="20" pady="20">
+               <color r="255" g="255" b="255">
+                  <img src="entities/objects/scenery/ReefAnimatedZRS/Kamehameha_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                  <img src="entities/objects/scenery/ReefAnimatedZRS/ReefAnimatedZRS2_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                  <img src="entities/objects/scenery/ReefAnimatedZRS/ReefAnimatedZRS5_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                  <img src="entities/objects/scenery/ReefAnimatedZRS/ReefAnimatedZRS3_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                  <img src="entities/objects/scenery/ReefAnimatedZRS/ReefAnimatedZRS4_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                  <p/>
+				This pack contains various animals and animated decorative rocks made​by zerosvalmont <i>version: 1.0</i>
+               </color>
+            </cell>
+         </cell>
+      </LOC_STRING>
+</ZT2Strings>

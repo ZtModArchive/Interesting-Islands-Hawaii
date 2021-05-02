@@ -1,0 +1,132 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <AlbatrossLaysan>Laysan Albatross</AlbatrossLaysan>
+      <AlbatrossLaysan_stt>Laysan Albatross</AlbatrossLaysan_stt>
+      <AlbatrossLaysan_lower>the Laysan Albatross</AlbatrossLaysan_lower>
+      <AlbatrossLaysan_ltt>
+         <color r="255" g="248" b="178">
+            <b>Laysan Albatross</b>
+         </color>
+         <br/>
+         Click to select and then place a Laysan Albatross, a large seabird that nests on Hawaiian Islands.
+      </AlbatrossLaysan_ltt>
+      <!--gift names-->
+      <AlbatrossLaysan_Gift>Laysan Albatross Stuffed Animal</AlbatrossLaysan_Gift>
+      <AlbatrossLaysan_Gift_stt>Laysan Albatross Stuffed Animal</AlbatrossLaysan_Gift_stt>
+      <AlbatrossLaysan_Gift_lower>the Laysan Albatross Stuffed Animal</AlbatrossLaysan_Gift_lower>
+      <AlbatrossLaysan_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Laysan Albatross Backpack</b>
+         </color>
+         <br/>Guests who enjoy watching the Laysan Albatross will buy this gift.
+      </AlbatrossLaysan_Gift_ltt>
+</entityname>
+<zoopedia_AlbatrossLaysan>
+ <entry>Laysan Albatross</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/AlbatrossLaysan/AlbatrossLaysan_Adult_F_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/lowrisk.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="255">
+                      Low Risk
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Wetlands<br/></color>
+     <img src="ui/icon_biomes/icon_wetlands.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Worldwide<br/></color> 
+     <img src="ui/icon_maplocations/Grassland_Worldwide.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Waterfowl <i>(Anseriformes)</i><br/>Family: Ducks, Geese and Swans <i>(Anatidae)</i><br/>Genus: <i>Anas</i><br/>Species: <i>acuta</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/wetlands_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Laysan Albatross Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Within the large dabbling duck genus Anas, the Laysan Albatross's closest relatives are other Albatrosss, such as the Yellow-billed Albatross and Eaton's Albatross. The Albatrosss are sometimes separated in the genus Dafila, an arrangement supported by morphological, molecular and behavioural data.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The famous British ornithologist Sir Peter Scott gave this name to his daughter, the artist Dafila Scott.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>        
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The Laysan Albatross is a bird of open wetlands which nests on the ground, often some distance from water.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The Laysan Albatross has been called the "nomads of the skies" due to their wide-ranging migrations.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Laysan Albatross in challenge or campaign games, you must earn a 1/2 star zoo fame rating for your zoo. 
+   </color>
+   <p/>The Laysan Albatross is a fairly large duck, with a long pointed tail that gives rise to the species' English and scientific names. The Laysan Albatross's many names describe the male's two long black tail feathers, which in flight look like a single pin or twig (thus, the nickname sprig). These feathers are very distinctive, accounting for a quarter of the total length of the drake when in full plumage. Fast and graceful fliers, Albatrosss are equipped with long wings, small heads, and long necks that seem built for streamlined aerodynamics. Both sexes have blue gray bills and gray legs and feet. The drake is more striking, having a thin white stripe running from the back of its chocolate-colored head down its neck to its mostly white undercarriage. The drake also has attractive gray, brown, and black patterning on its back and sides. The hen's plumage is more subtle and subdued, with drab brown feathers similar to those of other female dabblers. Hens make a coarse quack and the drakes a flute-like whistle.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of <color r="255" g="231" b="135">Wikipedia</color>. 
+  </cell>
+ </text>
+</zoopedia_AlbatrossLaysan>
+</ZT2Strings>

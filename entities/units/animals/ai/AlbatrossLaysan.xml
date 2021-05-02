@@ -1,0 +1,186 @@
+<BFTypedBinder binderType="AlbatrossLaysan" abstract="true">
+	<types>
+		<entity>
+			<actor>
+				<animal>
+					<Aves>
+						<Columbiformes>
+							<Raphidae>
+								<AlbatrossLaysan />
+							</Raphidae>
+						</Columbiformes>
+					</Aves>
+				</animal>
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity entityVersion="1">
+			<physObjParenting>
+				<parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link" />
+				<parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link" />
+				<parentObj parent="mainObj" child="shadowObj3" rottype="use" postype="ignore" attachnode="link" />
+			</physObjParenting>
+		</BFGEntity>
+	</instance>
+	<shared>
+		<UIToggleButton template="adopt">
+			<UIAspect>
+				<default image="entities/units/animals/AlbatrossLaysan/AlbatrossLaysan_Adult_F_icon.dds" />
+			</UIAspect>
+			<UIHelpInfo ids="entityname:AlbatrossLaysan" />
+			<on>
+				<event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbatrossLaysan_Adult_F" />
+			</on>
+		</UIToggleButton>
+		<ZTPlacementData waterPlacement="true" />
+		<BFAIEntityDataShared f_BaseDonationAmount="60" f_MaxTourValue="20" p_PreyOffset="0 1 0" s_DonateToken="t_DonateAlbatrossLaysan" b_ShadeStructureUser="true" p_NurseNode=".20 -.5 90" p_AttackGuestNode="0 -3 0" p_ButtObjectNode="0 -.5 0" p_FenceJumpNode="0 -5 0" p_GroomNode="1 0 180" p_FightOffset="0 -1.25 0" p_FightOffset2="0 -1.25 180" s_Species="AlbatrossLaysan" s_Endangerment="LowRisk" b_Basic="true" b_Piscivore="true" s_KeeperEatType="Terrain_Fish" b_SmallAnimal="true" b_FoodDishEater="true" s_KeeperDrinkType="FoodDish_Water" f_adoptRemoveTime="0" f_adoptRarity="1" s_Zoopedia="zoopedia:zoopedia_AlbatrossLaysan:entry" f_RequiredInitialSpace="1" f_RequiredAdditionalSpace="1" b_CoastalAnimal="true" b_Grazer="true" p_PursuitBallNode="0 -0.5 180" b_RubberToyUser="true" b_RattleBallUser="true" b_BallUser="true">
+			<BFAINeedAdjusts privacy="0.25" />
+		</BFAIEntityDataShared>
+		<BFGBiomeData location="coastal_hawaii" locationSensitivity="10">
+			<alpine sensitivity="-10" />
+			<benthic sensitivity="0" />
+			<borealforest sensitivity="-10" />
+			<coastal sensitivity="10" />
+			<desert sensitivity="-7" />
+			<grassland sensitivity="0" />
+			<reef sensitivity="10" primary="true" />
+			<pelagic sensitivity="10" />
+			<temperateforest sensitivity="-10" />
+			<tropicalrainforest sensitivity="0" />
+			<tundra sensitivity="5" />
+			<savannah sensitivity="-7" />
+			<scrub sensitivity="-7" />
+			<wetlands sensitivity="-10" />
+		</BFGBiomeData>
+		<ZTUserStaffAction>
+			<SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom" />
+			<SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal" />
+		</ZTUserStaffAction>
+	</shared>
+	<binder>
+		<BFNamedBinder binderName="mainObj">
+			<instance>
+				<BFPhysObj>
+					<BFShadowLODComponent numLevels="1" switchingDists="60.0" />
+					<BFActorComponent actorfile="entities/units/animals/AlbatrossLaysan/AlbatrossLaysan_Adult_F.bfm" scale="0.9" />
+					<BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15" frontBuoyancyNode="Node_Buoy" />
+					<BFForwardMovingComponent />
+					<BFRotYawMovingComponent />
+					<BFCollisionComponent grid="Bip01 Spine1" />
+					<BFGridCollisionComponent />
+					<BFDecalTextureCycleComponent materialName="AlbatrossLaysan_Adult_F">
+						<Step imageName="entities/units/animals/shared/pale_blink_blank.dds" hold="3.0" variance="0.5" />
+						<Step imageName="entities/units/animals/shared/pale_blink_blank.dds" hold="0.08" variance="" />
+						<Step imageName="entities/units/animals/shared/pale_blink_blank.dds" hold="0.1" variance="" />
+						<Step imageName="entities/units/animals/shared/pale_blink_blank.dds" hold="0.08" variance="" />
+					</BFDecalTextureCycleComponent>
+					<BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0" />
+					<BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1" />
+				</BFPhysObj>
+			</instance>
+			<shared>
+				<BFTextTagMacrosComponent>
+					<MACROS>
+						<macro name="Walky" text="anim &apos;Walk_Ahead&apos;" />
+						<macro name="Walky2Standy" text="anim &apos;Walk_2Stand&apos;, anim&apos;Stand_Idle&apos;" />
+						<macro name="Stand2LieBelly" text="anim &apos;Stand_Idle&apos;, anim &apos;Stand_Idle&apos;" />
+						<macro name="LieBelly2Stand" text="anim &apos;Stand_Idle&apos;, anim &apos;Stand_Idle&apos;" />
+						<macro name="Standy2Walky" text="anim &apos;Stand_2Walk&apos;, anim &apos;Walk_TurnLeftA&apos;" />
+						<macro name="LieOnBelly" text="anim &apos;Lie_Idle&apos;" />
+						<macro name="TurnLeft180" text="anim &apos;Stand_TurnLeft90&apos;, anim &apos;Stand_TurnL" />
+						<macro name="TurnRight180" text="anim &apos;Stand_TurnRight90&apos;, anim &apos;Stand_TurnRight90&apos;" />
+						<macro name="WalkBack" text="anim &apos;Backup_Ahead&apos;" />
+						<macro name="Standy2WalkBack" text="anim &apos;Stand_2Backup&apos;, anim &apos;Backup_Ahead&apos;" />
+						<macro name="WalkBack2Stand" text="anim &apos;Backup_2Stand&apos;, anim &apos;Stand_Idle&apos;" />
+					</MACROS>
+				</BFTextTagMacrosComponent>
+				<BFSharedPhysVars isWaterDisplacer="true" waterDisplacement="0.25 0.5 0.25">
+					<virtualNodes>
+						<Dock_Reproduction x="0" y="-1" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_HollowLog x="0" y="-1" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_Guest x="0" y="-.75" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_PreenOther x="0" y="-1" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_PreenYoung x="0" y="-1" z="0" yaw="0" pitch="0" roll="0" />
+						<Dock_FeedYoung x="0" y="-1" z="0" yaw="0" pitch="0" roll="0" />
+					</virtualNodes>
+				</BFSharedPhysVars>
+			</shared>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFBehaviorMgr behaviorVersion="1">
+					<subBehaviors>
+						<BFBehLocoSwitchSet loopFlag="true">
+							<behaviorTable>
+								<ground behSet="Stand" />
+								<water behSet="TreadWater" />
+							</behaviorTable>
+						</BFBehLocoSwitchSet>
+					</subBehaviors>
+				</BFBehaviorMgr>
+			</instance>
+		</BFBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFLocomotionMgr />
+			</instance>
+			<binder>
+				<BFNamedBinder binderName="ground" required="1">
+					<instance>
+						<BFLocoAnimate version="1">
+							<stop name="Stand" />
+							<slow name="Walk">
+								<waggle name="Walk_Ahead" wag="0.5" />
+							</slow>
+							<medium name="Walk">
+								<waggle name="Walk_Ahead" wag="0.5" />
+							</medium>
+							<fast name="Run">
+								<waggle name="Run_Ahead" wag="0.5" />
+							</fast>
+							<evade name="Run" minAnimSpeed="0.8" maxAnimSpeed="1.5">
+								<waggle name="Run_Ahead" wag="0.5" />
+							</evade>
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+				<BFNamedBinder binderName="water" required="1">
+					<instance>
+						<BFLocoAnimate version="1">
+							<stop name="TreadWater" />
+							<slow name="Swim">
+								<waggle name="Swim_Ahead" wag="0.5" />
+							</slow>
+							<medium name="Swim">
+								<waggle name="Swim_Ahead" wag="0.5" />
+							</medium>
+							<fast name="Swim">
+								<waggle name="Swim_Ahead" wag="0.5" />
+							</fast>
+							<evade name="Swim" minAnimSpeed="0.8" maxAnimSpeed="1.5">
+								<waggle name="Swim_Ahead" wag="0.5" />
+							</evade>
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+			</binder>
+		</BFBinder>
+		<BFNamedBinder binderName="foodprop" repopulateMethod="byName" required="1">
+			<instance>
+				<BFGEntityContainer>
+					<slots>
+						<BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1" />
+					</slots>
+				</BFGEntityContainer>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder>
+			<instance>
+				<ZTEconomyComponent cost="100">
+					<ZTTransaction name="build" costType="parent" type="debit" category="animal" />
+				</ZTEconomyComponent>
+			</instance>
+		</BFBinder>
+	</binder>
+</BFTypedBinder>

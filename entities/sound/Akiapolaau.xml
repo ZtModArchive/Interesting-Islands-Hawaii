@@ -1,0 +1,7 @@
+<soundtags>
+   <BFSoundtag>
+      <BF3DSndFactory name="Akiapolaau_Call">
+         <snd name="entities/units/animals/Akiapolaau/sound/Akiapolaau_Call.mp3" volume="1" mindist="5" maxdist="30"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+</soundtags>

@@ -1,0 +1,41 @@
+<ZT2Strings>
+   <!--entity names-->
+   <entityname>
+      <!--scenery object names-->
+      <Puuoo>Pu'u 'O'o</Puuoo>
+      <Puuoo_stt>Pu'u 'O'o</Puuoo_stt>
+      <Puuoo_lower>The Pu'u 'O'o</Puuoo_lower>
+      <Puuoo_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pu'u 'O'o</b>
+         </color>
+         <br/>
+        Click to place the Pu'u 'O'o, a representation of on of Hawaii's most active cones of Kilauea.
+      </Puuoo_ltt>
+   </entityname>
+      <LOC_STRING _locID="zoopedia_popoca:entry">Pu'u 'O'o</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_popoca:text">
+         <cell pady="0" width="1000"/>
+         <p/>
+         <cell width="260"/>
+         <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+            <cell width="600" padx="20" pady="20">
+               <color r="255" g="255" b="255">
+                  <img src="entities/objects/scenery/Puuoo/Puuoo_icon.dds" sx="0" sy="0" sw="64" sh="64"/>
+                   <p>Guests will enjoy the Pu'u 'O'o as a new Tour Object. </p>
+                   <p>Popocatepetl is an active volcano and, at 5,426 m (17,802 ft), the second highest peak in Mexico after the Pico de Orizaba (5,636 m equal to 18,491 ft). Popocatepetl is linked to the Iztaccihuatl volcano to the north by the high saddle known as the Paso de Cortes, and lies in the eastern half of the Trans-Mexican volcanic belt.</p>
+
+<p>The name Popocatepetl comes from the Nahuatl words popoca which means it smokes and tepetl which meansmountain, thus Smoking Mountain; the name Don Goyo comes from the mountain association in the lore of the region with San Gregorio (St. Gregory), "Goyo" being a nickname like short form of Gregorio.
+</p>
+               </color>
+            </cell>
+         </cell>
+            <p/>
+            <cell width="260"/>
+            <cell width="620">
+                    	Content courtesy of         
+                     <u><color r="255" g="231" b="135">Wikipedia. </color></u>
+                        	Made by Realy for SDU Bonus Download: Tropical Coniferous Forest Biome Pack.
+                  </cell>
+      </LOC_STRING>
+</ZT2Strings>

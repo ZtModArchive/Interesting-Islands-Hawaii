@@ -1,0 +1,76 @@
+﻿<ZT2Strings>
+
+      <LOC_STRING _locID="entityname:TorchTiki">Tiki Torch</LOC_STRING>
+      <LOC_STRING _locID="entityname:TorchTiki_stt">Tiki Torch</LOC_STRING>
+      <LOC_STRING _locID="entityname:TorchTiki_lower">the Tiki Torch</LOC_STRING>
+      <LOC_STRING _locID="entityname:TorchTiki_ltt">
+         <color r="255" g="248" b="178">
+            <b>Tiki Torch</b>
+         </color>
+         <br/>
+         Click to select and place a Tiki Torch, great for Hawaiian themed areas. 
+           </LOC_STRING>
+      <LOC_STRING _locID="entityname:trashcan_oo">Trashcan</LOC_STRING>
+      <LOC_STRING _locID="entityname:trashcan_oo_stt">Trashcan</LOC_STRING>
+      <LOC_STRING _locID="entityname:trashcan_oo_lower">the trashcan</LOC_STRING>
+      <LOC_STRING _locID="entityname:trashcan_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Trashcan</b>
+         </color>
+         <br/>
+                  Click to select and place a trashcan.  
+      
+      </LOC_STRING>
+      <LOC_STRING _locID="entityname:umbrellatable_oo">Umbrella table</LOC_STRING>
+      <LOC_STRING _locID="entityname:umbrellatable_oo_stt">Umbrella table</LOC_STRING>
+      <LOC_STRING _locID="entityname:umbrellatable_oo_lower">the umbrella table</LOC_STRING>
+      <LOC_STRING _locID="entityname:umbrellatable_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Umbrella table</b>
+         </color>
+         <br/>
+     
+         Click to select and place an umbrella table. 
+     
+      </LOC_STRING>
+      <LOC_STRING _locID="entityname:patharch_oo">Arch</LOC_STRING>
+      <LOC_STRING _locID="entityname:patharch_oo_stt">Arch</LOC_STRING>
+      <LOC_STRING _locID="entityname:patharch_oo_lower">the arch</LOC_STRING>
+      <LOC_STRING _locID="entityname:patharch_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Arch</b>
+         </color>
+         <br/>
+          Click to select and place an arch.
+            </LOC_STRING>
+      <LOC_STRING _locID="entityname:bench_oo">Bench</LOC_STRING>
+      <LOC_STRING _locID="entityname:bench_oo_stt">Bench</LOC_STRING>
+      <LOC_STRING _locID="entityname:bench_oo_lower">the bench</LOC_STRING>
+      <LOC_STRING _locID="entityname:benchch_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Bench</b>
+         </color>
+         <br/>
+          Click to select and place a bench.
+            </LOC_STRING>
+      <LOC_STRING _locID="entityname:donationbox_oo">Donation box</LOC_STRING>
+      <LOC_STRING _locID="entityname:donationbox_oo_stt">Donation box</LOC_STRING>
+      <LOC_STRING _locID="entityname:donationbox_oo_lower">the donation box</LOC_STRING>
+      <LOC_STRING _locID="entityname:donationbox_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Donation box</b>
+         </color>
+         <br/>
+         Click to select and place a donation box. 
+        </LOC_STRING>
+      <LOC_STRING _locID="entityname:viewingarea_oo">Viewing area</LOC_STRING>
+      <LOC_STRING _locID="entityname:viewingarea_oo_stt">Viewing area</LOC_STRING>
+      <LOC_STRING _locID="entityname:viewingarea_oo_lower">the viewing area</LOC_STRING>
+      <LOC_STRING _locID="entityname:viewingarea_oo_ltt">
+         <color r="255" g="248" b="178">
+            <b>Viewing area</b>
+         </color>
+         <br/>
+          Click to select and place a viewing area.
+      </LOC_STRING>
+</ZT2Strings>

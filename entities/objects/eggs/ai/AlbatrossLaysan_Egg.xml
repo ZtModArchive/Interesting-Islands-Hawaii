@@ -1,0 +1,47 @@
+<BFTypedBinder binderType="AlbatrossLaysan_Egg">
+   <types>
+      <entity>
+          <egg>
+              <AlbatrossLaysan_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 0.3" icon3Dscale="5.0"/>
+      <UIToggleButton template="adopt">
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:AlbatrossLaysan_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbatrossLaysan_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_Species="AlbatrossLaysan" s_Zoopedia="zoopedia:zoopedia_AlbatrossLaysan:entry" s_Endangerment="LowRisk"/>
+      <BFGBiomeData location="grassland_worldwide" locationSensitivity="10">
+         <alpine sensitivity="0"/>
+         <borealforest sensitivity="2"/>
+         <coastal sensitivity="10" primary="true" />
+         <desert sensitivity="-5"/>
+         <grassland sensitivity="10" />
+         <temperateforest sensitivity="10"/>
+         <tropicalrainforest sensitivity="0"/>
+         <tundra sensitivity="0" />
+         <savannah sensitivity="2" />
+         <scrub sensitivity="-5"/>
+         <wetlands sensitivity="10" primary="true" />
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+               <BFActorComponent actorfile="entities/objects/eggs/CommonPeafowl_Egg/CommonPeafowl_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

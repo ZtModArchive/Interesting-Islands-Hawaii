@@ -1,0 +1,34 @@
+<BFTypedBinder binderType="AlbatrossLaysan_Adult_F">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Columbiformes>
+                     <Raphidae>
+                        <AlbatrossLaysan>
+                           <AlbatrossLaysan_Adult>
+                              <AlbatrossLaysan_Adult_F/>
+                           </AlbatrossLaysan_Adult>
+                        </AlbatrossLaysan>
+                     </Raphidae>
+                  </Columbiformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_Male="0" f_adoptCount="rand(1,1)"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance b_Pregnant="false"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="Akiapolaau_Young_F">
+	<types>
+		<entity>
+			<actor>
+				<animal>
+					<Aves>
+						<Galliformes>
+							<Phasianidae>
+								<Akiapolaau>
+									<Akiapolaau_Young>
+										<Akiapolaau_Young_F />
+									</Akiapolaau_Young>
+								</Akiapolaau>
+							</Phasianidae>
+						</Galliformes>
+					</Aves>
+				</animal>
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity />
+	</instance>
+	<shared>
+		<UIToggleButton template="adopt">
+			<on>
+				<event data="BFString" msg="ZT_SETPLACEMENTOBJECT" string="Akiapolaau_Young_F" />
+			</on>
+		</UIToggleButton>
+		<BFAIEntityDataShared b_Male="0" />
+	</shared>
+</BFTypedBinder>

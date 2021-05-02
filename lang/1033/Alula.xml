@@ -1,0 +1,39 @@
+<ZT2Strings>
+   <!--entity names-->
+   <entityname>
+      <!--scenery object names-->
+      <Alula>Alula</Alula>
+      <Alula_stt>Alula</Alula_stt>
+      <Alula_lower>alula</Alula_lower>
+      <Alula_ltt>
+         <color r="255" g="248" b="178">
+            <b>Alula</b>
+         </color>
+         <br/>
+        Click to place the alula, an endangered plant endemic to Hawaii.
+      </Alula_ltt>
+   </entityname>
+      <LOC_STRING _locID="zoopedia_alula:entry">Alula</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_alula:text">
+         <cell pady="0" width="1000"/>
+         <p/>
+         <cell width="260"/>
+         <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+            <cell width="600" padx="20" pady="20">
+               <color r="255" g="255" b="255">
+                  <img src="entities/objects/foliage/Alula/Alula_Desert_icon.dds" sx="0" sy="0" sw="64" sh="64"/> 
+<p/><i>Brighamia insignis</i>
+		  <p/>
+                  The Hawaiian Alula is a highly endangered endemic perennial plant that lives on the cliffs of the Kauai and Niihau islands.  The plant was once pollinated by a now-extinct species of hawk moth, which means that the only way to grow more of these plants is to hand pollinate them.  It is also known as the Pua'ala, and has traditionally been used for medicines. 
+
+<p/>Designed and made by 
+<a href="zoopedia:zoopedia_artifex:entry">
+                 <u>
+                    <color r="255" g="231" b="135">Artifex.</color>
+                 </u>
+              </a>
+               </color>
+            </cell>
+         </cell>
+      </LOC_STRING>
+</ZT2Strings>

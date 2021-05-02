@@ -1,0 +1,49 @@
+<BFTypedBinder binderType="Puuoo">
+  <types>
+    <entity>
+      <scenery>
+        <Statue>
+          <Puuoo />
+        </Statue>
+      </scenery>
+    </entity>
+  </types>
+  <instance>
+    <BFGEntity entityVersion="1">
+      <pyhsObjParenting />
+
+    </BFGEntity>
+  </instance>
+  <shared>
+    <UIToggleButton template="adopt">
+      <UIAspect>
+        <default image="entities\objects\scenery\Puuoo\Puuoo_icon.dds" />
+      </UIAspect>
+      <UIHelpInfo name="" short="" long="" help="" ids="entityname:Puuoo" />
+      <on>
+        <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Puuoo" />
+      </on>
+    </UIToggleButton>
+    <ZTPlacementData terrainFlatten="true" dockArrowStyle="standard" dockArrowSize="0.75" icon3Doffset="-0.04502 0 0" />
+    <BFAIEntityDataShared s_Theme="default" s_uisort="e" s_Zoopedia="zoopedia:zoopedia_Puuoo:entry" />
+  </shared>
+  <binder>
+    <BFNamedBinder binderName="mainObj">
+      <instance>
+        <BFPhysObj>
+          <BFSimpleLODComponent isBFR="true" modelfile="entities/objects/scenery/Puuoo/Puuoo.nif" scale="1.0" switch="0 15 25 35" />
+          <BFGroundFitComponent heightOffset="0.0" />
+          <BFForceUpdateWhenVisibleComponent />
+        </BFPhysObj>
+      </instance>
+    </BFNamedBinder>
+    <BFBinder>
+      <instance>
+        <ZTEconomyComponent cost="500">
+          <ZTTransaction name="build" costType="parent" type="debit" category="construction" />
+          <ZTTransaction name="destroy" cost="1000" costType="%parent" type="credit" category="recycling" />
+        </ZTEconomyComponent>
+      </instance>
+    </BFBinder>
+  </binder>
+</BFTypedBinder>

@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="AlbatrossLaysan_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Columbiformes>
+                     <Raphidae>
+                        <AlbatrossLaysan>
+                           <AlbatrossLaysan_Young>
+                              <AlbatrossLaysan_Young_M/>
+                           </AlbatrossLaysan_Young>
+                        </AlbatrossLaysan>
+                     </Raphidae>
+                  </Columbiformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="AlbatrossLaysan_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>

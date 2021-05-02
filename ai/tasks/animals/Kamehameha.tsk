@@ -1,0 +1,55 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="Airborne" UniqueID="Kamehameha:Airborne">
+      <BFAICreateData>
+         <Subjects>
+            <Kamehameha/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Airborne"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Airborne_Caller" UniqueID="Kamehameha:Airborne_Caller">
+      <BFAICreateData>
+         <Subjects_AND>
+            <Kamehameha/>
+            <b_Caller/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects_AND>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="11000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Airborne_Caller"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Die" UniqueID="Kamehameha:Die">
+      <BFAICreateData>
+         <Subjects>
+            <Kamehameha/>
+            <Qualifiers_AND inWater_OR_onLand="true" isSwimming="false" lifespan="GE 9000"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="12000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="FlyStraight"/>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

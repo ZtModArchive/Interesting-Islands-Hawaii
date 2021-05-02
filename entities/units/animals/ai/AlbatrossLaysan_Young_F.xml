@@ -1,0 +1,27 @@
+<BFTypedBinder binderType="AlbatrossLaysan_Young_F">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Columbiformes>
+                     <Raphidae>
+                        <AlbatrossLaysan>
+                           <AlbatrossLaysan_Young>
+                              <AlbatrossLaysan_Young_F/>
+                           </AlbatrossLaysan_Young>
+                        </AlbatrossLaysan>
+                     </Raphidae>
+                  </Columbiformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_Male="0"/>
+   </shared>
+</BFTypedBinder>
